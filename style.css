@@ -1,0 +1,246 @@
+*{
+    margin:0;
+    scroll-behavior: smooth;
+}
+body{
+    background-size: cover;
+    animation: backgroundRotation 15s linear infinite;
+}
+
+.lentete{
+    background-color: rgba(0, 0, 0, 0.53);
+    max-width: 1300px;
+    max-height: 70px;
+    text-align:center ;
+    padding: 35px;
+    
+    
+}
+
+.logo{
+   height: 40px;
+   width:150px;
+   position: absolute;
+   left: 5%;
+   top: 0.50%;
+   
+    
+}
+.frent{
+    padding: 60px 0;
+    color: aliceblue;
+    margin-top: 30%;
+    font-size: 20px;
+}
+
+.Descri{
+    text-align: center;
+    color: aliceblue;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+position: absolute;
+top: 300px;
+left: 240px;
+font-size:25px;
+}
+.btnAccuiele{
+    background-color: rgb(11, 123, 235);
+    color: aliceblue;
+    padding: 0.80%;
+    text-align: center;
+    border-radius: 9%;
+    position: absolute;
+    top: 450px;
+    left:550px ;
+    text-decoration: none;
+}
+
+.btn1{
+position: absolute;
+cursor: pointer;
+top: 30px;   
+left:620px ;
+background-color: #dddddd00;
+border: none;
+color: rgb(255, 255, 255);
+text-align: center;
+font-size: 16px;
+transition: 0.3s;
+text-decoration: none;
+
+}
+.btn2{
+    position: absolute;
+    cursor: pointer;
+    top: 30px;   
+    right:150px ;
+    background-color: #dddddd00;
+    border: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 16px;
+    transition: 0.3s;
+    text-decoration: none;
+    
+    }
+
+    .btn3{
+    position: absolute;
+    cursor: pointer;
+    top: 30px;   
+    right:250px ;
+    background-color: #dddddd00;
+    border: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 16px;
+    transition: 0.3s;
+    text-decoration: none;
+    
+    }
+
+
+    .btn4{
+        position: absolute;
+        cursor: pointer;
+        top: 30px;   
+        left:720px ;
+        background-color: #dddddd00;
+        border: none;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-size: 16px;
+        transition: 0.3s;
+        text-decoration: none;
+        
+        }
+
+
+
+        .btn5{
+            position: absolute;
+            cursor: pointer;
+            top: 30px;   
+            left:350px ;
+            background-color: #dddddd00;
+            border: none;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            font-size: 16px;
+            transition: 0.3s;
+            text-decoration: none;
+            
+            }
+
+            .btn6{
+                position: absolute;
+                cursor: pointer;
+                top: 30px;   
+                left:500px ;
+                background-color: #dddddd00;
+                border: none;
+                color: rgb(255, 255, 255);
+                text-align: center;
+                font-size: 16px;
+                transition: 0.3s;
+                text-decoration: none;
+                
+                }
+
+                .btn7{
+                    border-radius: 10%;
+                    position: absolute;
+                    cursor: pointer;
+                    top: 15px;   
+                    right:10px ;
+                    width: 90px;
+                    height: 35px;
+                    color: rgb(255, 255, 255);
+                    font-size: 16px;
+                    transition: 0.3s;
+                    text-decoration: none;
+                    background-color: rgb(8, 81, 251);
+                    text-align: center;
+                    padding-top: 0.90%;
+                    }
+    
+
+.btn :hover{
+    padding: 1%;
+    background-cover: rgb(17, 194, 29);
+    border-radius: 10%;
+}
+.btn6:hover{
+    padding: 0.70%;
+    background-cover: rgb(0, 156, 10);
+    border-radius: 10%;
+}
+
+@keyframes backgroundRotation {
+    0%{
+        background-image: url(images/wallpaper/s1.jpg);
+    }
+    35%{
+        background-image: url(images/wallpaper/s2.jpg);
+    }
+    57%{
+        background-image: url(images/wallpaper/s3.jpg);
+    }
+    80%{
+        background-image: url(images/wallpaper/s4.jpg);
+    }
+    100%{
+        background-image: url(images/wallpaper/s1.jpg);
+
+    }
+}
+
+.page{
+    background-color:white;
+    padding: 0px 0;
+    max-width: 1300px;
+    max-height: 5300px;
+    text-align: center;
+}
+
+.pageContent{
+    background-size: cover;
+    background-color:white;
+    max-width: 1300px;
+    max-height: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 70px 0;
+    
+}
+.titre-code{
+    position: absolute;
+    top: 600px;
+    background-color: white;
+    
+}
+.you{
+    color: rgb(14, 89, 240);
+}
+.ecole{
+    font-family :initial;
+}
+
+.parag{
+    color: black;
+    max-width: 1000px;
+    position: absolute;
+    top: 700px;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pg{
+    max-width: 1350px;
+    margin-top: 100px;
+}
+.pg1{
+    max-width: 1300px;
+    margin-top: 20px;
+}
+
